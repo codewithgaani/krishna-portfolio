@@ -1,0 +1,540 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Krishna Bhatt — Developer Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- ── NAV ── -->
+    <header id="header">
+      <div class="nav-inner">
+        <span class="logo">KB<span class="logo-dot">.</span></span>
+        <nav>
+          <a href="#about">About</a>
+          <a href="#skills">Skills</a>
+          <a href="#projects">Projects</a>
+          <a href="#experience">Experience</a>
+          <a href="#certifications">Certs</a>
+          <a href="#contact">Contact</a>
+        </nav>
+        <a href="resume.pdf" download class="btn-nav">Resume ↓</a>
+        <button class="hamburger" id="hamburger" aria-label="Open menu">
+          &#9776;
+        </button>
+      </div>
+      <div class="mobile-menu" id="mobileMenu">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#experience">Experience</a>
+        <a href="#certifications">Certs</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </header>
+
+    <!-- ── HERO ── -->
+    <section id="hero">
+      <div class="hero-inner">
+        <p class="hero-eyebrow">Final-year CS Student &amp; Builder</p>
+        <h1 class="hero-name">
+          Krishna<br /><span class="hero-name-accent">Bhatt</span>
+        </h1>
+        <p class="hero-tagline">
+          Systems programmer. Full-stack developer. Cloud builder.<br />From
+          kernel-level OS extensions to production-ready web apps.
+        </p>
+        <div class="hero-cta">
+          <a href="#projects" class="btn-primary">See My Work</a>
+          <a href="#contact" class="btn-ghost">Get In Touch</a>
+        </div>
+        <div class="hero-stats">
+          <div class="stat">
+            <span class="stat-num">300+</span
+            ><span class="stat-label">DSA Problems Solved</span>
+          </div>
+          <div class="stat-divider"></div>
+          <div class="stat">
+            <span class="stat-num">100%</span
+            ><span class="stat-label">AWS Lab Scores</span>
+          </div>
+          <div class="stat-divider"></div>
+          <div class="stat">
+            <span class="stat-num">3+</span
+            ><span class="stat-label">Live Projects Deployed</span>
+          </div>
+        </div>
+      </div>
+      <div class="hero-scroll">scroll ↓</div>
+    </section>
+
+    <!-- ── ABOUT ── -->
+    <section id="about">
+      <div class="container">
+        <span class="section-eyebrow">About</span>
+        <h2 class="section-title">Building things<br />that actually work.</h2>
+        <div class="about-grid">
+          <div class="about-text">
+            <p>
+              I'm a final-year Computer Science student at Graphic Era
+              University, Dehradun (B.Tech, CGPA 7.5/10). My work lives at the
+              intersection of systems programming and modern web development —
+              I've written code that runs inside an OS kernel and deployed apps
+              that run in production.
+            </p>
+            <p>
+              I've built a custom xv6 kernel extension with system calls and a
+              deadlock detector, a JavaScript compiler optimizer using AST
+              transformations, and a full-stack hospital management platform —
+              all from scratch. AWS certified with hands-on lab experience
+              across EC2, S3, IAM, VPC, EKS, and more.
+            </p>
+            <p>
+              Currently looking for opportunities where I can build impactful
+              systems and keep learning fast.
+            </p>
+            <div class="about-links">
+              <a
+                href="https://linkedin.com/in/"
+                target="_blank"
+                class="about-link"
+                >LinkedIn ↗</a
+              >
+              <a href="https://github.com/" target="_blank" class="about-link"
+                >GitHub ↗</a
+              >
+              <a href="mailto:bhattkrishna767@gmail.com" class="about-link"
+                >Email ↗</a
+              >
+            </div>
+          </div>
+          <div class="about-card-col">
+            <div class="about-card">
+              <div class="about-card-icon">🎓</div>
+              <div>
+                <strong>Graphic Era University</strong>
+                <p>B.Tech CS&E · 2023–2027</p>
+                <p class="muted">CGPA 7.5 / 10</p>
+              </div>
+            </div>
+            <div class="about-card">
+              <div class="about-card-icon">📍</div>
+              <div>
+                <strong>Location</strong>
+                <p>Dehradun, Uttarakhand, India</p>
+              </div>
+            </div>
+            <div class="about-card">
+              <div class="about-card-icon">📬</div>
+              <div>
+                <strong>Email</strong>
+                <p>bhattkrishna767@gmail.com</p>
+              </div>
+            </div>
+            <div class="about-card">
+              <div class="about-card-icon">📱</div>
+              <div>
+                <strong>Phone</strong>
+                <p>+91 8077480900</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ── SKILLS ── -->
+    <section id="skills">
+      <div class="container">
+        <span class="section-eyebrow">Skills</span>
+        <h2 class="section-title">What I work with.</h2>
+        <div class="skills-grid">
+          <div class="skill-block">
+            <h3 class="skill-heading">Languages</h3>
+            <div class="skill-tags">
+              <span>C</span><span>C++</span><span>Python</span
+              ><span>JavaScript</span>
+            </div>
+          </div>
+          <div class="skill-block">
+            <h3 class="skill-heading">Frontend</h3>
+            <div class="skill-tags">
+              <span>React.js</span><span>HTML</span><span>CSS</span
+              ><span>Tailwind CSS</span>
+            </div>
+          </div>
+          <div class="skill-block">
+            <h3 class="skill-heading">Backend</h3>
+            <div class="skill-tags">
+              <span>Node.js</span><span>Express.js</span><span>REST APIs</span
+              ><span>JWT Auth</span><span>RBAC</span><span>WebSockets</span>
+            </div>
+          </div>
+          <div class="skill-block">
+            <h3 class="skill-heading">Databases</h3>
+            <div class="skill-tags">
+              <span>PostgreSQL</span><span>MySQL</span>
+            </div>
+          </div>
+          <div class="skill-block">
+            <h3 class="skill-heading">Cloud / DevOps</h3>
+            <div class="skill-tags">
+              <span>AWS EC2</span><span>S3</span><span>IAM</span><span>VPC</span
+              ><span>ELB</span><span>EKS</span><span>CodeCommit</span
+              ><span>Network Firewall</span>
+            </div>
+          </div>
+          <div class="skill-block">
+            <h3 class="skill-heading">Tools</h3>
+            <div class="skill-tags">
+              <span>Git</span><span>GitHub</span><span>VS Code</span
+              ><span>QEMU</span><span>GDB</span><span>Vercel</span
+              ><span>Render</span><span>Babel</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ── PROJECTS ── -->
+    <section id="projects">
+      <div class="container">
+        <span class="section-eyebrow">Projects</span>
+        <h2 class="section-title">Things I've built.</h2>
+        <div class="projects-grid">
+          <div class="project-card">
+            <div class="project-header">
+              <span class="project-year">2025</span>
+              <div class="project-links-top">
+                <a href="#" class="icon-link" title="Source Code">⌥ Code</a>
+              </div>
+            </div>
+            <h3>xv6 Mini Kernel OS</h3>
+            <p>
+              Extended the xv6 teaching OS with a custom
+              <code>getsysinfo()</code> system call, a 3-level MLFQ scheduler
+              using circular buffer queues, and a deadlock detection module with
+              DFS-based cycle detection — all validated on QEMU.
+            </p>
+            <div class="project-tech">
+              <span>C</span><span>Assembly</span><span>QEMU</span
+              ><span>GDB</span>
+            </div>
+            <ul class="project-bullets">
+              <li>
+                Custom syscall #22 exposing live process count &amp; uptime
+              </li>
+              <li>Priority-based time-slice allocation across processes</li>
+              <li>Lock-dependency graph with DFS cycle detection</li>
+            </ul>
+          </div>
+
+          <div class="project-card featured">
+            <div class="project-header">
+              <span class="project-year">2026 · Active</span>
+              <div class="project-links-top">
+                <a href="#" class="icon-link">⌥ Code</a>
+              </div>
+            </div>
+            <div class="featured-badge">Featured</div>
+            <h3>AST Code Optimizer</h3>
+            <p>
+              Full-stack web app that parses JavaScript into an Abstract Syntax
+              Tree via Babel and applies compiler optimizations — Constant
+              Folding, Dead Code Elimination, and Unused Variable Removal —
+              returning optimized code in real time.
+            </p>
+            <div class="project-tech">
+              <span>React.js</span><span>Node.js</span><span>Express.js</span
+              ><span>Babel</span>
+            </div>
+            <ul class="project-bullets">
+              <li>Modular optimizer engine: lex → parse → AST → codegen</li>
+              <li>Real-time optimized output via React frontend</li>
+              <li>3 compiler optimization passes implemented</li>
+            </ul>
+          </div>
+
+          <div class="project-card">
+            <div class="project-header">
+              <span class="project-year">Oct 2025–Jan 2026</span>
+              <div class="project-links-top">
+                <a href="#" class="icon-link">⌥ Code</a>
+              </div>
+            </div>
+            <h3>Smart Hospital Management System</h3>
+            <p>
+              Role-based platform (Admin / Doctor / Patient) with appointment
+              scheduling, patient records, and an AI symptom checker. All
+              endpoints secured with JWT + RBAC, deployed live on Vercel and
+              Render.
+            </p>
+            <div class="project-tech">
+              <span>React.js</span><span>Node.js</span><span>PostgreSQL</span
+              ><span>JWT</span>
+            </div>
+            <ul class="project-bullets">
+              <li>3-role RBAC with JWT-secured API endpoints</li>
+              <li>AI symptom checker integration</li>
+              <li>Live deployed on Vercel + Render</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ── EXPERIENCE ── -->
+    <section id="experience">
+      <div class="container">
+        <span class="section-eyebrow">Experience</span>
+        <h2 class="section-title">Where I've contributed.</h2>
+        <div class="timeline">
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+              <div class="timeline-meta">
+                <span class="timeline-date">June 2026</span>
+                <span class="timeline-badge">Virtual · Remote</span>
+              </div>
+              <h3>Software Engineering Job Simulation</h3>
+              <p class="timeline-org">JPMorgan Chase &amp; Co. — via Forage</p>
+              <ul>
+                <li>
+                  Integrated Kafka into a Spring Boot microservice to consume
+                  high-volume transaction messages; implemented validation and
+                  persistence with Spring Data JPA + H2 SQL.
+                </li>
+                <li>
+                  Built a REST endpoint for querying user balances via a Spring
+                  controller, connected to an external Incentive API using
+                  RestTemplate; verified end-to-end behavior with Maven test
+                  suites.
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+              <div class="timeline-meta">
+                <span class="timeline-date">2025</span>
+                <span class="timeline-badge">On-site/Online</span>
+              </div>
+              <h3>Smart India Hackathon (SIH) 2025</h3>
+              <p class="timeline-org">National-level Government Hackathon</p>
+              <ul>
+                <li>
+                  Participated as part of a 6-member team in India's largest
+                  national hackathon; contributed to problem analysis, solution
+                  ideation, and final presentation under time-constrained
+                  conditions.
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ── CERTIFICATIONS ── -->
+    <section id="certifications">
+      <div class="container">
+        <span class="section-eyebrow">Certifications</span>
+        <h2 class="section-title">Credentials.</h2>
+        <div class="certs-grid">
+          <a
+            href="https://www.credly.com/badges/e7586fc8-7715-4c3a-a1e2-bfbb7dddf34b"
+            target="_blank"
+            class="cert-card"
+          >
+            <div class="cert-icon">☁️</div>
+            <div class="cert-body">
+              <h3>AWS Well-Architected Proficient</h3>
+              <p>AWS Training &amp; Certification</p>
+              <p class="cert-detail">
+                Cloud architecture strategies across all 6 pillars of the AWS
+                Well-Architected Framework
+              </p>
+              <span class="cert-verify">Verify on Credly ↗</span>
+            </div>
+          </a>
+
+          <div class="cert-card">
+            <div class="cert-icon">🧪</div>
+            <div class="cert-body">
+              <h3>AWS Cloud Practitioner Essentials</h3>
+              <p>AWS Training &amp; Certification</p>
+              <p class="cert-detail">
+                Scored 100% across 4 hands-on labs: Network Firewall, EKS,
+                CodeCommit, Elastic Load Balancing
+              </p>
+              <span class="cert-badge">100% Lab Score</span>
+            </div>
+          </div>
+
+          <div class="cert-card">
+            <div class="cert-icon">⚡</div>
+            <div class="cert-body">
+              <h3>Microsoft Azure Essentials</h3>
+              <p>Microsoft &amp; LinkedIn Learning</p>
+              <p class="cert-detail">
+                Professional Certificate — Microsoft Azure &amp; Cloud Computing
+                · Completed June 2026
+              </p>
+            </div>
+          </div>
+
+          <div class="cert-card">
+            <div class="cert-icon">🏦</div>
+            <div class="cert-body">
+              <h3>Software Engineering Job Simulation</h3>
+              <p>JPMorgan Chase &amp; Co. via Forage</p>
+              <p class="cert-detail">
+                Kafka Integration, REST API, H2 &amp; Spring Boot · June 2026
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ── ACHIEVEMENTS ── -->
+    <section id="achievements">
+      <div class="container">
+        <span class="section-eyebrow">Achievements</span>
+        <h2 class="section-title">Beyond the code.</h2>
+        <div class="achievements-grid">
+          <div class="achievement-card">
+            <span class="achievement-icon">🏆</span>
+            <h3>AWS Skill Builder Event</h3>
+            <p>
+              Graphic Era University — completed 4 hands-on labs on EC2, S3,
+              IAM, and VPC on live AWS infrastructure.
+            </p>
+          </div>
+          <div class="achievement-card">
+            <span class="achievement-icon">💻</span>
+            <h3>300+ Problems Solved</h3>
+            <p>
+              Solved 300+ problems on competitive programming platforms,
+              strengthening DSA fundamentals across arrays, graphs, DP, and
+              more.
+            </p>
+          </div>
+          <div class="achievement-card">
+            <span class="achievement-icon">🌐</span>
+            <h3>Hacktoberfest 2025</h3>
+            <p>
+              Earned Hacktoberfest 2025 badge with 3+ accepted pull requests on
+              open-source GitHub repositories.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ── CONTACT ── -->
+    <section id="contact">
+      <div class="container">
+        <span class="section-eyebrow">Contact</span>
+        <h2 class="section-title">Let's talk.</h2>
+        <div class="contact-grid">
+          <div class="contact-left">
+            <p>
+              I'm actively looking for opportunities — internships, full-time
+              roles, or interesting projects. If you're building something cool
+              or have a role that matches, reach out.
+            </p>
+            <div class="contact-methods">
+              <a href="mailto:bhattkrishna767@gmail.com" class="contact-method">
+                <span class="cm-icon">📧</span>
+                <span>bhattkrishna767@gmail.com</span>
+              </a>
+              <a href="tel:+918077480900" class="contact-method">
+                <span class="cm-icon">📱</span>
+                <span>+91 8077480900</span>
+              </a>
+              <a
+                href="https://linkedin.com/in/"
+                target="_blank"
+                class="contact-method"
+              >
+                <span class="cm-icon">💼</span>
+                <span>LinkedIn</span>
+              </a>
+              <a
+                href="https://github.com/"
+                target="_blank"
+                class="contact-method"
+              >
+                <span class="cm-icon">🐙</span>
+                <span>GitHub</span>
+              </a>
+            </div>
+          </div>
+          <form id="contactForm" class="contact-form">
+            <div class="form-group">
+              <label for="name">Name</label>
+              <input
+                type="text"
+                id="name"
+                name="name"
+                placeholder="Your name"
+                required
+              />
+            </div>
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input
+                type="email"
+                id="email"
+                name="email"
+                placeholder="you@email.com"
+                required
+              />
+            </div>
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea
+                id="message"
+                name="message"
+                rows="4"
+                placeholder="What's on your mind?"
+                required
+              ></textarea>
+            </div>
+            <button type="submit" class="btn-primary full-width">
+              Send Message →
+            </button>
+            <div id="formMessage"></div>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- ── FOOTER ── -->
+    <footer>
+      <div class="footer-inner">
+        <span class="logo">KB<span class="logo-dot">.</span></span>
+        <p>© 2026 Krishna Bhatt · Built with care.</p>
+        <div class="footer-links">
+          <a href="www.linkedin.com/in/krishna-bhatt69/" target="_blank"
+            >LinkedIn</a
+          >
+          <a href="https://github.com/codewithgaani/" target="_blank">GitHub</a>
+          <a href="mailto:bhattkrishna767@gmail.com">Email</a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
